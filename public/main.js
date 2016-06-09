@@ -1,1 +1,6 @@
-console.log('Works!')
+angular.module('app', [])
+  .controller('MainCtrl', function () {
+    const main = this;;
+
+    main.heading = 'Rock the Vote!!!';;
+  });;

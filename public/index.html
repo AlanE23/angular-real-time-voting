@@ -4,6 +4,11 @@
     <title>Vote Now!</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <h1>Rock the vote!</h1>
+  <div ng-app="app">
+    <div ng-controller="MainCtrl as main">
+      <h1>{{main.heading}}</h1>
+    </div>
+  </div>
+  <script src="lib/angular/angular.min.js"></script>
   <script src="main.js"></script>
 </html>
