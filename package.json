@@ -1,0 +1,24 @@
+{
+  "name": "angular-real-time-voting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NSS-Cohort-13/angular-real-time-voting.git"
+  },
+  "keywords": [],
+  "author": "Scott Humphries <npm@sscotth.io> (https://sscotth.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NSS-Cohort-13/angular-real-time-voting/issues"
+  },
+  "homepage": "https://github.com/NSS-Cohort-13/angular-real-time-voting#readme",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}
