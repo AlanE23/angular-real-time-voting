@@ -1,3 +1,11 @@
 h1 {
   color: tomato;
 }
+
+.nomination, .nominate, .progress {
+  margin: 10px 0;
+}
+
+.progress-bar {
+  min-width: 5px;
+}
